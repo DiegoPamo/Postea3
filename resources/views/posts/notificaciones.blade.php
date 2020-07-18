@@ -11,7 +11,7 @@
                 <h5 class="card-title">
                     <a href="{{ action('PostController@show',$notificaciones->data['notificacion'] ) }}">{{ $notificaciones->data["message"] }}</a>
                     
-                    Nuevo Comentario en: {{ $notificaciones->created_at }}
+                    Nuevo Comentario en el: {{ $notificaciones->created_at }}
                     
                 </h5>
             </div>   
